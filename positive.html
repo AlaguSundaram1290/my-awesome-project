@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Addition</title>
+        <script type="text/javascript">
+            function checknumber(){
+            var n1;
+            var n2;
+            n1=pharseInt(document.getElementById("num1").value);
+            n1=pharseInt(document.getElementById("num2").value);
+            if(n1>n2){
+            document.write(n1+" is a greater than" +n2); 
+            } 
+            if(n2<n1){
+                document.write(n2+" is a smaller than" +n1); 
+            }                          
+        </script>
+        </head>
+        <body>
+        number1:<input type="number" id="num1"/></br>
+        number2:<input type="number" id="num2"/></br>
+        <input type="button"value="checknumber"onclick="checknumber()"/>
+        </body>
+        </html>
